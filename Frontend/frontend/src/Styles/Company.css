@@ -1,0 +1,74 @@
+.companies {
+    padding: 16px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.companies h1 {
+    margin-bottom: 20px;
+}
+
+.companies-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.company-card {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin: 10px;
+}
+
+.company-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.company-details {
+    margin-top: 10px;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.detail span {
+    font-weight: bold;
+    margin-right: 10px;
+    flex-basis: 30%;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.large-input {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.input-group .ant-input-suffix {
+    margin-left: 8px;
+}
+
+.edit-button {
+    align-self: flex-end;
+    margin-top: 20px;
+    margin-bottom: 0;
+}

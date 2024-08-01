@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #6a11cb, #2575fc);
+}
+
+.sign-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.sign-box {
+    background: white;
+    width: 300px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.hippo-icon {
+    font-size: 50px; /* Увеличьте размер по вашему усмотрению */
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.icon {
+    color: #888;
+    margin-right: 10px;
+}
+
+input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+    padding-left: 5px; /* Добавим небольшой отступ слева */
+}
+
+.remember-me input {
+    margin-right: 10px;
+}
+
+.login-button {
+    background: #6a11cb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.login-button:hover {
+    background: #2575fc;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 20px;
+    color: #888;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    color: #333;
+}

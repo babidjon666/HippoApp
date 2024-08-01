@@ -1,0 +1,38 @@
+.profile-box {
+    padding: 16px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.profile-card {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 500px; /* Задаем максимальную ширину */
+    margin: 0 auto; /* Центрируем карточку */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative; /* Для абсолютного позиционирования кнопки */
+}
+
+.large-input {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.edit-button {
+    margin-top: 20px;
+}
+
+.ant-modal-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.padding-input{
+    margin: 10px;
+}
